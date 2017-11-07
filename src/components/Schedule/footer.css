@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: flex-end;
+  background: #13171A;
+  height: 120px;
+  padding: 0 17px;
+  padding-bottom: 26px;
+}
+
+.thisWeek {
+  color: #A4A4A4;
+}
+
+.thisWeekIcon {
+  color: #33E98C;
+}
+
+.thisWeekTitle {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.thisWeekDate {
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.channelCTA {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.1em;
+}

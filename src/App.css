@@ -1,0 +1,22 @@
+.appWrapper {
+  /*width: 100vw;*/
+  /*min-height: 100vh;*/
+  width: 1200px;
+  height: 600px;
+  background: linear-gradient(135deg, #1EE7C8, #2EF776);
+}
+
+.scheduleWrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.scheduleContentWrapper {
+  display: flex;
+  flex: 5;
+  justify-content: space-around;
+  height: 480px;
+  padding: 0 10px;
+}

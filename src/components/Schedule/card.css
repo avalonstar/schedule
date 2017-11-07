@@ -1,0 +1,98 @@
+.cardWrapper {
+  background: #FFFFFF;
+  border-radius: 6px;
+  max-width: 275px;
+  width: 275px;
+  height: 505px;
+  position: relative;
+  z-index: 5;
+  margin: 0 8px;
+  margin-top: 20px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  padding: 0 19px;
+  padding-top: 19px;
+  height: 130px;
+  justify-content: flex-start;
+}
+
+.cardActions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.homeIcon {
+  color: #E4E4E4;
+}
+
+.loveIcon {
+  color: #B145C8;
+}
+
+.cardDate {
+  color: #ACACAC;
+  margin: 5px 0;
+}
+
+.cardDay {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 1.7em;
+}
+
+.cardMedia {
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 300px;
+}
+
+.mediaOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
+}
+
+.mediaContent {
+  flex: 1;
+  position: relative;
+  z-index: 5;
+  display: flex;
+  align-items: flex-end;
+  min-height: 100%;
+  padding: 0 19px;
+  padding-bottom: 25px;
+  color: #FFFFFF;
+  font-size: 1.8em;
+}
+
+.cardFooter {
+  display: flex;
+  flex-direction: column;
+  padding: 0 19px;
+  padding-bottom: 15px;
+  justify-content: flex-end;
+  height: 70px;
+}
+
+.activityName {
+  color: #7A7A7A;
+  margin-bottom: 4px;
+}
+
+.activity {
+  color: #CBCBCB;
+  font-size: 0.9em;
+}
